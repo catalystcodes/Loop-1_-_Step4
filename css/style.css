@@ -1,5 +1,6 @@
 body {
     background-color: lightblue;
+    font-family: sans-serif;
 }
 
 .container {
@@ -29,6 +30,53 @@ img {
     margin-right: 0.5rem;
 }
 
+img:hover {
+    transform: rotate(150deg);
+    transition: 1s;
+}
+
 h4 {
     margin-right: 9rem;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.bottom {
+    background-color: white;
+    height: 20rem;
+}
+
+.line1 {
+    margin-top: 0.2rem;
+    height: 0.1rem;
+    width: 9rem;
+    background-color: wheat;
+}
+
+.line {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.p1 {
+    color: wheat;
+    font-weight: 100;
+    font-size: small;
+}
+
+h6 {
+    font-size: smaller;
+    font-weight: 100;
+    color: wheat;
+}
+
+.p2 {
+    background-color: whitesmoke;
+    margin-right: 7rem;
+    margin-left: 1rem;
+    border-radius: 3px;
+    line-height: 1.6rem;
+    font-size: 0.78rem;
+    font-weight: 750;
 }

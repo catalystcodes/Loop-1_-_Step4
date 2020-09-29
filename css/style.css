@@ -43,12 +43,12 @@ h4 {
 
 .bottom {
     background-color: white;
-    height: 29rem;
+    height: 32.5rem;
 }
 
 .line1 {
-    margin-top: 0.2rem;
-    height: 0.1rem;
+    margin-top: 0.8rem;
+    height: 0.01rem;
     width: 9rem;
     background-color: #999999;
 }
@@ -60,9 +60,12 @@ h4 {
 }
 
 .p1 {
-    color: #999999;
+    color: #c7c3c3;
     font-weight: 100;
     font-size: small;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.4rem;
 }
 
 h6 {
@@ -81,6 +84,9 @@ h6 {
     line-height: 1.6rem;
     font-size: 0.78rem;
     font-weight: 750;
+    /* padding-top: 0.5rem; */
+    padding-bottom: 0.5rem;
+    padding-left: 0.4rem;
 }
 
 .tmeg2 {
@@ -102,35 +108,64 @@ h6 {
     font-weight: 750;
     /* padding-b: 1rem; */
     margin-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.4rem;
 }
 
 .h1 {
     font-size: smaller;
     font-weight: 100;
-    color: wheat;
+    color: #999999;
     margin-left: 19rem;
     padding-bottom: 0.5rem;
 }
 
 .p4 {
-    background-color: whitesmoke;
+    background-color: #e7edf6;
     margin-right: 19rem;
     margin-left: 1rem;
     border-radius: 3px;
     line-height: 1.6rem;
     font-size: 0.78rem;
     font-weight: 750;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.4rem;
 }
 
 .p5 {
-    margin-left: 9rem;
     background-color: #fec1c0;
-    margin-right: 1rem;
-    /* margin-left: 1rem; */
+    margin-right: 0.2rem;
+    margin-left: 9rem;
     border-radius: 3px;
     line-height: 1.6rem;
     font-size: 0.78rem;
     font-weight: 750;
     /* padding-b: 1rem; */
     margin-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.9rem;
+}
+
+.big {
+    display: flex;
+    justify-content: space-between;
+}
+
+h5 {
+    color: #6a96d8;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.p9 {
+    margin-left: 1rem;
+    color: #999999;
+    margin-top: 1rem;
+}
+
+.big {
+    border-top: #e4e1e1 solid 0.01rem;
 }

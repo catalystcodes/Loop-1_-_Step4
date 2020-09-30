@@ -33,6 +33,7 @@ img {
 img:hover {
     transform: rotate(150deg);
     transition: 1s;
+    cursor: pointer;
 }
 
 h4 {
